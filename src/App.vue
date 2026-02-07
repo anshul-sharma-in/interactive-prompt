@@ -52,7 +52,7 @@
 
 <script lang="ts">
 import { defineComponent, ref } from "vue";
-import bear from "./assets/bear.png"; // or .jpg depending on your file
+import bear from "./assets/bear.png";
 
 export default defineComponent({
   name: "App",
@@ -190,7 +190,6 @@ button {
   cursor: pointer;
 }
 
-/* Escape mode */
 .no-btn.escaped {
   position: fixed;
   z-index: 1000;
